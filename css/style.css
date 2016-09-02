@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+#categories {
+	background-color: #f56677;
+	width: 200px;
+	height: 800px;
+	float: left;
+	font-size: 20px;
+}
+
+#categories ul {
+	margin: 20px 30px;
+}
+
+#categories ul li {
+	line-height: 1.5;
+}
+
+#categories ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#categories ul li a:hover {
+	font-size: 22px;
+	color: #555555;
+}
+
+#gallery {
+	float: right;
+	display: block;
+	padding-right:25%;
+}
+
+#small {
+	padding-left: 51px;
+}
